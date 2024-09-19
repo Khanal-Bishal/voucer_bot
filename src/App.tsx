@@ -1,4 +1,3 @@
-import { BadgeCent } from 'lucide-react';
 import Card from './Components/Card';
 import QRCode from 'react-qr-code';
 
@@ -21,7 +20,7 @@ function App() {
         <p className="mt-2 font-light text-normal">Scan the QR code.</p>
       </div>
 
-      <div className="absolute top-2/3 mt-20 w-full">
+      <div className="absolute top-2/3 mt-20 w-full md:top-3/4">
         <Card />
       </div>
     </>
